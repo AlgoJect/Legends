@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* CSS Document */
+/* CSS Document---------------------------------------- */
 
 #legends {
 	height: 50%;
@@ -42,7 +42,15 @@ video {
 	height: 50%;
 }
 
-/* Navbar*/
+/* Font Family---------------------------------------- */
+
+.Birra2 {
+	font-family: birra-2,serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+/* Navbar---------------------------------------- */
 
 nav {
 	padding: 10px 0px;
@@ -69,7 +77,7 @@ li.active {
 	color: #88CCF1;
 }
 
-/* Quick Access & Search*/
+/* Quick Access & Search ---------------------------------------- */
 
 .quickaccessandsearch a {
 	margin-right: 25px;
@@ -142,7 +150,7 @@ p.quote {
 	margin: 50px;
 }
 
-/* Table */
+/* Table---------------------------------------- */
 
 #bgcolorFFF {
 	background-color: #FFF;
@@ -165,7 +173,7 @@ td, th {
 	width: 300px;
 }
 
-/* Feedback Form */
+/* Feedback Form---------------------------------------- */
 
 .form {
 	background-color: rgb(57, 169, 219);
@@ -197,7 +205,7 @@ form h1 {
 	margin-right: 25px;
 }
 
-/* Footer */
+/* Footer---------------------------------------- */
 
 footer {
     margin-top: 50px;
