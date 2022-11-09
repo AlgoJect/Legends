@@ -1,14 +1,14 @@
 body {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   color: #3FA7D6;
   font-family: "Fjalla One", Arial;
   background: linear-gradient(#141e30, #243b55);
 }
 
 h1 {
-	font-size: 3em;
-	overflow: break;	
+  font-size: 3em;
+  overflow: break;
 }
 
 
@@ -24,9 +24,9 @@ html {
   width: 400px;
   padding: 40px;
   transform: translate(-50%, -50%);
-  background: rgba(0,0,0,.5);
+  background: rgba(0, 0, 0, .5);
   box-sizing: border-box;
-  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
   border-radius: 10px;
   text-align: center;
 }
@@ -53,9 +53,10 @@ html {
   outline: none;
   background: transparent;
 }
+
 .login-box .user-box label {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   padding: 10px 0;
   font-size: 16px;
@@ -64,8 +65,8 @@ html {
   transition: .5s;
 }
 
-.login-box .user-box input:focus ~ label,
-.login-box .user-box input:valid ~ label {
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
   top: -20px;
   left: 0;
   color: #03e9f4;
@@ -91,9 +92,9 @@ html {
   color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 5px #03e9f4,
-              0 0 25px #03e9f4,
-              0 0 50px #03e9f4,
-              0 0 100px #03e9f4;
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
 }
 
 .login-box a span {
@@ -114,7 +115,9 @@ html {
   0% {
     left: -100%;
   }
-  50%,100% {
+
+  50%,
+  100% {
     left: 100%;
   }
 }
@@ -133,7 +136,9 @@ html {
   0% {
     top: -100%;
   }
-  50%,100% {
+
+  50%,
+  100% {
     top: 100%;
   }
 }
@@ -152,7 +157,9 @@ html {
   0% {
     right: -100%;
   }
-  50%,100% {
+
+  50%,
+  100% {
     right: 100%;
   }
 }
@@ -171,7 +178,9 @@ html {
   0% {
     bottom: -100%;
   }
-  50%,100% {
+
+  50%,
+  100% {
     bottom: 100%;
   }
 }

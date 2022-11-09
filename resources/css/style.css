@@ -5,7 +5,7 @@
   right: 0;
   position: center;
   width: 400px;
-  
+
 }
 
 .image__img {
@@ -25,7 +25,7 @@
   position: relative;
   -webkit-filter: blur(4px);
   filter: blur(4px);
-  
+
 }
 
 .image {
@@ -33,7 +33,7 @@
   padding: 10px;
   padding-left: 0px;
   padding-right: 0px;
-  transition: transform .2s; 
+  transition: transform .2s;
   width: 200px;
   height: 200px;
   margin: auto;
@@ -45,6 +45,5 @@
   left: 0;
   right: 0;
   position: relative;
-  transform: scale(1.25); 
+  transform: scale(1.25);
 }
-
